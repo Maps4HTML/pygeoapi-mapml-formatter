@@ -18,7 +18,7 @@ class MapMLFormatter(BaseFormatter):
         Generate data in MapML format
         :returns: string representation of format
         """
-        mapml = Element('mapml', {'xmlns':'https://www.w3.org/1999/xhtml/'})
+        mapml = Element('mapml', {'xmlns':'http://www.w3.org/1999/xhtml'})
         head = SubElement(mapml, 'head')
         title = SubElement(head, 'title')
 
